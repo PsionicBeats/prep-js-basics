@@ -9,7 +9,9 @@
 *
 * It should be a String.
 **/
-
+var firstName = "Scorpius";
+var lastName = "Malfoy";
+var birthPlace = "London";
 
 
 /**
@@ -21,7 +23,9 @@
 *
 * Their values should be a Number
 **/
-
+var favoriteNumber = 13;
+var currentYear = 2016;
+var thatOnePrinceSong 1999;
 
 
 /**
@@ -33,7 +37,10 @@
 *
 * Their values should be a Boolean
 **/
-
+var isDaytime = true;
+var isLeftHanded = false;
+var inHawaii = true;
+var isHappyCoding = false;
 
 
 /**
@@ -44,7 +51,8 @@
 *
 * Their values should be a Null value
 **/
-
+var enrolledAtDevLeague = null; enrolledAtDevLeague
+var completedFridayPrep = null; completedFridayPrep
 
 
 /**
@@ -55,7 +63,7 @@
 * This Array contains the names of all the states
 * which can be found along the west coast of The United States.
 **/
-
+var westCoast = ['California', 'Oregon', 'Washington'];
 
 
 /**
@@ -66,7 +74,7 @@
 * This Array contains numbers that are considered 'even values'.
 * Have at least ten even values in this array.
 **/
-
+var evenNumbers = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
 
 
 /**
@@ -79,7 +87,9 @@
 *
 * Extend this behavior to include subtraction, multiplication and division.
 */
-
+function sumOfNumbers (evenNumbers) {
+	console.log(4 + 9 - 2);
+}
 
 
 
