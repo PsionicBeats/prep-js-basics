@@ -87,9 +87,7 @@ var evenNumbers = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
 *
 * Extend this behavior to include subtraction, multiplication and division.
 */
-function sumOfNumbers (evenNumbers) {
-	console.log(4 + 9 - 2);
-}
+	var sumOfNumbers= (20 - 2) / 2;
 
 
 
@@ -108,7 +106,7 @@ function sumOfNumbers (evenNumbers) {
 *   See if you can come up with a few examples of double comparison
 *   operator(==) vs triple comparison operator(===).
 */
-
+var isEqual Tacocat == tacocat
 
 
 /**
@@ -125,7 +123,12 @@ function sumOfNumbers (evenNumbers) {
 *   The tests for this section cannot test your variable as it changes,
 *   it can only test that you declared the variable by giving it the right name.
 */
-
+var generalContainer = 20;
+generalContainer /= 5;
+generalContainer *= 3;
+generalContainer += 8;
+generalContainer -= 10;
+generalContainer %= 2;
 
 
 
@@ -140,8 +143,10 @@ function sumOfNumbers (evenNumbers) {
 *
 * Store the return value to a variable named `jumpResult`
 **/
-
-
+function jump(height) {
+	return "You jumped " + height + " feet high!"
+}
+jump(9);
 
 /**
 * #7b
@@ -152,4 +157,7 @@ function sumOfNumbers (evenNumbers) {
 * This function should return a String along the lines of, "Tomatoes and Cheese make a Pizza!"
 * if invoked in this way -> cook("Tomatoes", "Cheese", "Pizza");
 **/
-
+function cook(ingredient1, ingredient2, ingredient3) {
+	return ingredient1 + " and " + ingredient2 + " make a " + recipeName + "!"
+}
+cook("Tomatoes", "Cheese", "Pizza");
